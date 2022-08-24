@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    font-size: 22px;
+    letter-spacing: 0.1em;
+}
+
+h6 {
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0;
+}
+
+body {
+    margin:0;
+    margin-top: 20px;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.burgermenu {
+    width: 35px;
+    height: 35px;
+}
+
+.hero-sec h4{
+    margin-bottom: 10px;
+}
+
+form{
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid/ black; */
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    border: none;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+form button {
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+}
+
+form button img {
+    padding:7px 8px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.item1{
+    grid-area: one;
+    background: #414BA9;
+}
+
+.item2{
+    grid-area: two;
+    background: #0D5074;
+
+}
+
+.item3{
+    grid-area: three;
+    background-image: url("../images/ph1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.item4{
+    grid-area: four;
+    background-image: url("../images/ph2.jpg");
+    background-size: cover;
+}
+
+.item5{
+    grid-area: five;
+    display: flex;
+}
+
+.item6{
+    background-image: url("../images/ph3.jpg");
+    background-size: cover;
+    grid-area: six;
+}
+
+.grid {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: [first] 40% [line2] 60% [end];
+    grid-template-rows: [row1-start] 200px [row1-end] 220px [third-line] 220px [four-line] 130px [five-line] 380px [last-line];
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-areas: 
+        " one two"
+        "three three"
+        "four four"
+        "five five"
+        "six six";
+}
+
+.nextpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextpagebtn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AED8EF;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.gray{
+    color: #C2C2C2;
+}
+
+.white-bg {
+    background: #F6F6F6;
+}
+
+.orange {
+    background-color: #FC5E3B;
+}
+
+.size50proc{
+    width: 50%;
+    height: 100%;
+}
+
+.green {
+    background-color: #3ABD98;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.b-radius15 {
+    border-radius: 15px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.px10{
+   padding: 0 10px; 
+}
