@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug 24 22:49:22 2022
+# Make data base, printed on Thu Aug 25 22:12:38 2022
 
 # Variables
 
@@ -35,7 +35,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3312_YUFQAJAPAGDHVLWP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17280_SFWHJOWITHCSZMII
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -83,7 +83,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3312
+VSCODE_PID = 17280
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -203,7 +203,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Vladimir/OneDrive/Desktop/websiteOne, mtime 1661373871): 7 files, no impossibilities.
+# . (key c:/Users/Vladimir/OneDrive/Desktop/websiteOne, mtime 1661458340): 7 files, no impossibilities.
 
 # 7 files, no impossibilities in 1 directories.
 
@@ -218,7 +218,7 @@ deploy:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 2):
-	npx surge ./build/
+	npx surge ./
 
 # Not a target:
 .DEFAULT:
@@ -236,7 +236,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-24 22:40:59
+#  Last modified 2022-08-25 13:33:51
 #  File has been updated.
 #  Successfully updated.
 
@@ -254,6 +254,6 @@ makefile:
 # strcache performance: lookups = 16 / hit rate = 31%
 # hash-table stats:
 # Load=11/8192=0%, Rehash=0, Collisions=0/16=0%
-# Finished Make data base on Wed Aug 24 22:49:22 2022
+# Finished Make data base on Thu Aug 25 22:12:38 2022
 
  
