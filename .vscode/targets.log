@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug 25 22:12:38 2022
+# Make data base, printed on Fri Aug 26 09:54:42 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -35,7 +37,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17280_SFWHJOWITHCSZMII
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9976_ZUEOQVQEGVWVJQMV
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -83,7 +87,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 17280
+VSCODE_PID = 9976
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -195,7 +199,7 @@ PROCESSOR_REVISION = 8c01
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 # variable set hash-table stats:
-# Load=91/1024=9%, Rehash=0, Collisions=8/118=7%
+# Load=93/1024=9%, Rehash=0, Collisions=9/120=8%
 
 # Pattern-specific Variable Values
 
@@ -254,6 +258,6 @@ makefile:
 # strcache performance: lookups = 16 / hit rate = 31%
 # hash-table stats:
 # Load=11/8192=0%, Rehash=0, Collisions=0/16=0%
-# Finished Make data base on Thu Aug 25 22:12:38 2022
+# Finished Make data base on Fri Aug 26 09:54:42 2022
 
  
