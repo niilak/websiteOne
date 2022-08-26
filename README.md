@@ -5,11 +5,10 @@ Design for this website was found on Dribbbler.
 
 Basic directory layout structure
 .
-├── css
-│ ├── style.css  
-├── images
-│ ├── icons
-│ ├──
-├── index.html  
-├── makefile #use NPM package to create command for deployment
-└── README.md
+├── css/
+│ ├── style.css/
+├── images/
+│ ├── icons/
+├── index.html/  
+├── makefile #use NPM package to create command for deployment/
+└── README.md/
