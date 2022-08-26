@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 26 09:54:42 2022
+# Make data base, printed on Fri Aug 26 17:43:43 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9976_ZUEOQVQEGVWVJQMV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9792_GVMVNWDCIKNLIMGH
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9976
+VSCODE_PID = 9792
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -207,9 +207,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Vladimir/OneDrive/Desktop/websiteOne, mtime 1661458340): 7 files, no impossibilities.
+# . (key c:/Users/Vladimir/OneDrive/Desktop/websiteOne, mtime 1661528588): 9 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -252,12 +252,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 11 / storage = 73 B / avg = 6 B
-# current buf: size = 8174 B / used = 73 B / count = 11 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 13 / storage = 89 B / avg = 6 B
+# current buf: size = 8174 B / used = 89 B / count = 13 / avg = 6 B
 
-# strcache performance: lookups = 16 / hit rate = 31%
+# strcache performance: lookups = 18 / hit rate = 27%
 # hash-table stats:
-# Load=11/8192=0%, Rehash=0, Collisions=0/16=0%
-# Finished Make data base on Fri Aug 26 09:54:42 2022
+# Load=13/8192=0%, Rehash=0, Collisions=0/18=0%
+# Finished Make data base on Fri Aug 26 17:43:43 2022
 
  

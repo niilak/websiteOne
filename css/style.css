@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.navmob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navdesk {
+  display: none;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.burgermenu {
+  width: 35px;
+  height: 35px;
+}
+
+.hero-sec h4 {
+  margin-bottom: 1rem;
+}
+
+main {
+  position: relative;
+}
+
+form {
+  margin-top: 4rem;
+  max-width: 750px;
+  height: 2.5rem;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding-left: 1rem;
+  border-radius: 8px;
+}
+
+form button {
+  border-radius: 8px;
+  border: none;
+  background-color: black;
+}
+
+form button img {
+  padding: 7px 8px;
+}
+
+.bag {
+  width: 45px;
+  height: 45px;
+  background-color: #978a8a;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  top: 90%;
+  z-index: 2;
+  left: 90%;
+}
+
+.bag img {
+  width: 35px;
+  height: 35px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.item1 {
+  grid-area: one;
+  background: #414ba9;
+  padding: 1rem;
+  background-image: url("");
+}
+
+.item1 span {
+  font-size: 1.5rem;
+  color: white;
+  text-align: start;
+}
+
+.item2 {
+  grid-area: two;
+  background: #0d5074;
+}
+
+.item3 {
+  grid-area: three;
+  background-image: url("../images/ph1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.item4 {
+  grid-area: four;
+  background-image: url("../images/ph2.jpg");
+  background-size: cover;
+}
+
+.item5 {
+  grid-area: five;
+  display: flex;
+}
+
+.item6 {
+  background-image: url("../images/ph3.jpg");
+  background-size: cover;
+  grid-area: six;
+}
+
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: [first] 40% [line2] calc(60% - 1rem) [end];
+  grid-template-rows: [row1-start] 200px [row1-end] 220px [third-line] 220px [four-line] 130px [five-line] 380px [last-line];
+  column-gap: 1rem;
+  row-gap: 1rem;
+  grid-template-areas:
+    " one two"
+    "three three"
+    "four four"
+    "five five"
+    "six six";
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nextpage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.nextpagebtn {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #aed8ef;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gray {
+  color: #978a8a;
+}
+
+.white-bg {
+  background: #f6f6f6;
+}
+
+.orange {
+  background-color: #fc5e3b;
+}
+
+.size50proc {
+  width: 50%;
+  height: 100%;
+}
+
+.green {
+  background-color: #3abd98;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.b-radius15 {
+  border-radius: 15px;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.px10 {
+  padding: 0 10px;
+}
+
+.font10 {
+  font-size: 10px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .navmob {
+    display: none;
+  }
+
+  .navdesk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rightsidenav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .categories {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid {
+    max-width: 90%;
+    grid-template-columns:
+      [first] 18% [line2] calc(22% - 1rem) [line3] calc(40% - 1rem)
+      [line4] calc(20% - 1rem) [end];
+    grid-template-rows: [row1-start] 200px [row1-end] 100px [third-line] 200px [last-line];
+    grid-template-areas:
+      "one two four six"
+      "three three four six"
+      "three three five six";
+  }
+
+  .container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .grid {
+    max-width: 80%;
+  }
+}
