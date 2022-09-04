@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 26 18:32:08 2022
+# Make data base, printed on Sun Sep 04 22:33:46 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11080_SMNJTXLVQGMAESEZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9772_AGOAIURWDPMVCHAM
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -51,7 +51,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Vladimir\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = C:\Users\Vladimir\AppData\Roaming\Code\CachedData\784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LANG = C
 # default
@@ -69,7 +69,7 @@ ONEDRIVE = C:\Users\Vladimir\OneDrive
 # makefile
 CURDIR := c:/Users/Vladimir/OneDrive/Desktop/websiteOne
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 11080
+VSCODE_PID = 9772
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -123,7 +123,7 @@ PATH = C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Win
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
-COMPUTERNAME = DESKTOP-3C35HS7
+COMPUTERNAME = NILA
 # default
 MAKEFILES := 
 # automatic
@@ -133,7 +133,7 @@ PROMPT = $P$G
 # environment
 CHOCOLATEYLASTPATHUPDATE = 133052039949896356
 # environment
-LOGONSERVER = \\DESKTOP-3C35HS7
+LOGONSERVER = \\NILA
 # environment
 USERNAME = Vladimir
 # environment
@@ -149,7 +149,7 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERDOMAIN = DESKTOP-3C35HS7
+USERDOMAIN = NILA
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -161,7 +161,7 @@ MAKE_VERSION := 4.3
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-3C35HS7
+USERDOMAIN_ROAMINGPROFILE = NILA
 # environment
 NUMBER_OF_PROCESSORS = 8
 # environment
@@ -181,7 +181,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Vladimir\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ec9df81226a5f2bec0412ae570cca6ab-1.70.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ec9df81226a5f2bec0412ae570cca6ab-1.71.0-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -207,9 +207,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Vladimir/OneDrive/Desktop/websiteOne, mtime 1661528588): 9 files, no impossibilities.
+# . (key c:/Users/Vladimir/OneDrive/Desktop/websiteOne, mtime 1662323197): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -252,12 +252,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 13 / storage = 89 B / avg = 6 B
-# current buf: size = 8174 B / used = 89 B / count = 13 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 14 / storage = 100 B / avg = 7 B
+# current buf: size = 8174 B / used = 100 B / count = 14 / avg = 7 B
 
-# strcache performance: lookups = 18 / hit rate = 27%
+# strcache performance: lookups = 19 / hit rate = 26%
 # hash-table stats:
-# Load=13/8192=0%, Rehash=0, Collisions=0/18=0%
-# Finished Make data base on Fri Aug 26 18:32:08 2022
+# Load=14/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Sun Sep 04 22:33:46 2022
 
  
