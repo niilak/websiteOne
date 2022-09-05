@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Sep 04 22:33:46 2022
+# Make data base, printed on Mon Sep 05 12:24:08 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9772_AGOAIURWDPMVCHAM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8564_MZBAQNTADRBPGQON
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9772
+VSCODE_PID = 8564
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -245,7 +245,8 @@ makefile:
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=5/1024=0%, Rehash=0, Collisions=0/15=0%
+# Load=5/1024=0%, 
+ Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
@@ -258,6 +259,6 @@ makefile:
 # strcache performance: lookups = 19 / hit rate = 26%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Sun Sep 04 22:33:46 2022
+# Finished Make data base on Mon Sep 05 12:24:08 2022
 
  
